@@ -31,6 +31,19 @@ class ViewController: UIViewController {
     }
 
     @IBAction func loginButtonClicked(_ sender: UIButton) {
+        NetworkService.shared.login(username: usernameField.text!, password: passwordField.text!) { success in
+            if success{
+                self.goToProfilePage()
+            }else{
+                print("Invalid credentials")
+            }
+        }
+    }
+    
+    private func goToProfilePage(){
+        let vc = storyboard?.instantiateViewController(identifier: "ProfileVC") as! ProfileViewController
+        vc.name = "ikinci ekran"
+        present(vc, animated: true)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

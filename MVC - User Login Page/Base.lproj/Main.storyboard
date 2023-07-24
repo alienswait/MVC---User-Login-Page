@@ -36,7 +36,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeA-4Y-oWc">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeA-4Y-oWc">
                                 <rect key="frame" x="146.66666666666666" y="323" width="99.666666666666657" height="35"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <color key="tintColor" systemColor="systemBackgroundColor"/>
@@ -48,7 +48,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <constraints>
                             <constraint firstItem="fUM-06-4p4" firstAttribute="centerX" secondItem="EeA-4Y-oWc" secondAttribute="centerX" id="24C-ut-YAt"/>
                             <constraint firstItem="gh4-LD-QgS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="174" id="FOs-PU-Fdt"/>
@@ -68,11 +68,43 @@
                         <outlet property="loginButton" destination="EeA-4Y-oWc" id="WcH-bJ-fZ2"/>
                         <outlet property="passwordField" destination="fUM-06-4p4" id="bl2-Sn-BZc"/>
                         <outlet property="usernameField" destination="1f6-sd-Ga3" id="eLm-1e-4jt"/>
+                        <segue destination="dxv-es-thB" kind="show" id="Y5D-Jg-A9D"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="14.503816793893129" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="-338" y="11"/>
+        </scene>
+        <!--Profile View Controller-->
+        <scene sceneID="cgY-6w-IPG">
+            <objects>
+                <viewController storyboardIdentifier="ProfileVC" id="dxv-es-thB" customClass="ProfileViewController" customModule="MVC___User_Login_Page" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VT7-tz-g3m">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hoş Geldiniz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWZ-g3-Y8V">
+                                <rect key="frame" x="137.66666666666666" y="409" width="118" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1Nh-QF-y4o"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstItem="hWZ-g3-Y8V" firstAttribute="centerX" secondItem="VT7-tz-g3m" secondAttribute="centerX" id="Uzk-uc-Q8x"/>
+                            <constraint firstItem="hWZ-g3-Y8V" firstAttribute="centerY" secondItem="VT7-tz-g3m" secondAttribute="centerY" id="lAy-Ct-DsM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="QN1-wo-6o8"/>
+                    <connections>
+                        <outlet property="nameLabel" destination="hWZ-g3-Y8V" id="IaR-t8-paO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9ns-6r-gcp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="434" y="11"/>
         </scene>
     </scenes>
     <resources>
@@ -81,6 +113,9 @@
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
