@@ -14,6 +14,7 @@
 		27B72EA72A6E6140006F5DC6 /* MVC___User_Login_Page.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27B72EA52A6E6140006F5DC6 /* MVC___User_Login_Page.xcdatamodeld */; };
 		27B72EA92A6E6140006F5DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B72EA82A6E6140006F5DC6 /* Assets.xcassets */; };
 		27B72EAC2A6E6140006F5DC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B72EAA2A6E6140006F5DC6 /* LaunchScreen.storyboard */; };
+		27BD201C2A6E6B5100DFB828 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BD201B2A6E6B5100DFB828 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		27B72EA82A6E6140006F5DC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27B72EAB2A6E6140006F5DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27B72EAD2A6E6140006F5DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27BD201B2A6E6B5100DFB828 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				27B72E9C2A6E6140006F5DC6 /* AppDelegate.swift */,
 				27B72E9E2A6E6140006F5DC6 /* SceneDelegate.swift */,
 				27B72EA02A6E6140006F5DC6 /* ViewController.swift */,
+				27BD201B2A6E6B5100DFB828 /* User.swift */,
 				27B72EA22A6E6140006F5DC6 /* Main.storyboard */,
 				27B72EA82A6E6140006F5DC6 /* Assets.xcassets */,
 				27B72EAA2A6E6140006F5DC6 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				27B72EA72A6E6140006F5DC6 /* MVC___User_Login_Page.xcdatamodeld in Sources */,
 				27B72EA12A6E6140006F5DC6 /* ViewController.swift in Sources */,
 				27B72E9D2A6E6140006F5DC6 /* AppDelegate.swift in Sources */,
+				27BD201C2A6E6B5100DFB828 /* User.swift in Sources */,
 				27B72E9F2A6E6140006F5DC6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
