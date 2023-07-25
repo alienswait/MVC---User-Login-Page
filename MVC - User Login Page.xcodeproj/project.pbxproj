@@ -68,13 +68,13 @@
 				27B72E9E2A6E6140006F5DC6 /* SceneDelegate.swift */,
 				27B72EA02A6E6140006F5DC6 /* ViewController.swift */,
 				27BD201B2A6E6B5100DFB828 /* User.swift */,
+				27BD201D2A6E745500DFB828 /* NetworkService.swift */,
+				27BD201F2A6E7B0A00DFB828 /* ProfileViewController.swift */,
 				27B72EA22A6E6140006F5DC6 /* Main.storyboard */,
 				27B72EA82A6E6140006F5DC6 /* Assets.xcassets */,
 				27B72EAA2A6E6140006F5DC6 /* LaunchScreen.storyboard */,
 				27B72EAD2A6E6140006F5DC6 /* Info.plist */,
 				27B72EA52A6E6140006F5DC6 /* MVC___User_Login_Page.xcdatamodeld */,
-				27BD201D2A6E745500DFB828 /* NetworkService.swift */,
-				27BD201F2A6E7B0A00DFB828 /* ProfileViewController.swift */,
 			);
 			path = "MVC - User Login Page";
 			sourceTree = "<group>";

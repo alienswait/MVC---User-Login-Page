@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     //MARK: -FUNCTIONS
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         setInitViews()
     }
     
